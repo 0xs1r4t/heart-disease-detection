@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-1. [Pre-Requisites](##pre-requisites)
-2. [Running the Application](##running-the-application-)
-    1. [Running via Docker](###running-via-docker-)
-        - [x] [Dockerfile](####dockerfile)
-    2. [Running without Docker](###running-without-docker)
+1. [Pre-Requisites](https://github.com/sBx99/heart-disease#pre-requisites)
+2. [Running the Application](https://github.com/sBx99/heart-disease#running-the-application)
+    1. [Running via Docker](https://github.com/sBx99/heart-disease#running-via-docker)
+        - [x] [Dockerfile](https://github.com/sBx99/heart-disease#dockerfile)
+    2. [Running without Docker](https://github.com/sBx99/heart-disease#running-without-docker)
 
 ## Pre-Requisites
 
