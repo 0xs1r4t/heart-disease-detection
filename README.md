@@ -17,11 +17,26 @@ git clone https://github.com/sBx99/heart-disease.git
 cd heart-disease # all files are under this folder
 ```
 
+You don't need to do this. You may also use the [official container image from Docker Hub](siratb/python-gui-browser:latest) by following the steps below.
+
 ## Running the application
 
 ### Running via Docker
 
 If you have `docker` on PC, you can run this pretty easily.
+
+You could pull the official image from [Docker Hub](https://hub.docker.com/repository/docker/siratb/python-gui-browser) and run it:
+
+```bash
+docker pull siratb/python-gui-browser:latest
+docker run --rm -it \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e DISPLAY=$DISPLAY \
+    -u qtuser \
+    --network=host --privileged siratb/python-gui-browser:latest
+```
+
+Run the code below if you've cloned the repo.
 
 ```bash
 # see run.sh
