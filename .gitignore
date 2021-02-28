@@ -1,0 +1,5 @@
+# all cache directories
+__pycache__/
+
+# all environment files + directiories
+my_env/

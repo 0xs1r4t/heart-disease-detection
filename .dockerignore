@@ -1,0 +1,5 @@
+__pycache__/
+run.sh
+
+# all env files
+my_env/
